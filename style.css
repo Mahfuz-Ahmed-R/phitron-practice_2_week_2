@@ -1,0 +1,30 @@
+.search{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+#allBoxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    width: 300px;
+    height: auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin: 10px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.innerImg{
+    width: 300px;
+    height: 200px;
+}
